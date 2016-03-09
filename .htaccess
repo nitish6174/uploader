@@ -1,0 +1,7 @@
+Options -Indexes +FollowSymLinks
+<FilesMatch "\.(zip)$">
+ Order Allow,Deny
+ Deny from all
+</FilesMatch>
+RewriteEngine On
+RewriteRule ^u/(.*)$ get.php?id=$1 [L]

@@ -1,0 +1,7 @@
+#loginModal .modal-dialog  {max-width: 350px;}
+#signupModal .modal-dialog  {max-width: 500px;}
+/*#signupSuccessModal .modal-dialog  {max-width: 300px;}*/
+.pointer { cursor: pointer; }
+
+
+#page { margin-top: 50px; }

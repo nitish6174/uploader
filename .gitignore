@@ -1,0 +1,7 @@
+### Ignoring the uploads (except 'public' directory)
+uploads/*
+!uploads/public/
+!uploads/public/.gitignore
+
+### To ignore Database configuration file
+# database/dbconf.php
